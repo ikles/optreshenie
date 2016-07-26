@@ -1,5 +1,5 @@
 <footer>
-	ООО "Оптимальное решение" Все права защищены
+	<?php dynamic_sidebar('footer'); ?>
 </footer>				
 <? wp_footer(); ?>
 </body>

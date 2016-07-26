@@ -23,7 +23,65 @@ register_sidebar(array(
 	'after_title' => ''
 	));
 
+register_sidebar(array(
+	'name' => 'Гарантированные клиенты',
+	'id' => 'text_a',
+	'description' => '',
+	'before_widget' => '<div class="text_a">',
+	'after_widget' => '</div>',
+	'before_title' => '',
+	'after_title' => ''
+	));
 
+register_sidebar(array(
+	'name' => 'Эффективную рекламу в Яндекс...',
+	'id' => 'text_b',
+	'description' => '',
+	'before_widget' => '<div class="text_b hid_sm">',
+	'after_widget' => '</div>',
+	'before_title' => '',
+	'after_title' => ''
+	));
+
+register_sidebar(array(
+	'name' => 'Кнопки заказа аудита',
+	'id' => 'button1',
+	'description' => '',
+	'before_widget' => '<div class="button1">',
+	'after_widget' => '</div>',
+	'before_title' => '',
+	'after_title' => ''
+	));
+
+register_sidebar(array(
+	'name' => 'Список',
+	'id' => 'text_c',
+	'description' => '',
+	'before_widget' => '<div class="text_c hid_sm">',
+	'after_widget' => '</div>',
+	'before_title' => '',
+	'after_title' => ''
+	));
+
+register_sidebar(array(
+	'name' => 'Всплывающая форма',
+	'id' => 'modal-dialog',
+	'description' => '',
+	'before_widget' => '<div id="openModal" class="modalDialog">',
+	'after_widget' => '</div>',
+	'before_title' => '',
+	'after_title' => ''
+	));
+
+register_sidebar(array(
+	'name' => 'Футер',
+	'id' => 'footer',
+	'description' => '',
+	'before_widget' => '<div class="footer1">',
+	'after_widget' => '</div>',
+	'before_title' => '',
+	'after_title' => ''
+	));
 
 
 add_action( 'after_setup_theme', 'woocommerce_support' );

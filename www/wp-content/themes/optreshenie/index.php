@@ -15,34 +15,14 @@
 					<div class="image hid_sm">
 					</div>
 					<div class="text">
-						<div class="text_a">
-							ГАРАНТИРОВАННЫЕ КЛИЕНТЫ<br>
-							из интернета<br>
-							или вернем деньги!
-						</div>
-						<div class="text_b hid_sm">
-							Вы получите эффективную рекламу в Яндекс.Директ и Google AdWords<br>
-							Вы получите первый "поток" денег для вашего бизнеса за 72 часа<br>
-							Распределим бюджет в зависимости от возможностей Вашего бизнеса
-						</div>
-						<a href="#openModal">
-							<div class="button hid_sm">
-								Бесплатный аудит<sup>*</sup> Вашей ниши. ЗАКАЗАТЬ
-							</div>
-							<div class="button hid_lg">
-								ЗАКАЗАТЬ БЕСПЛАТНЫЙ АУДИТ
-							</div>
-						</a>
-						<div class="text_c hid_sm">
-							<sup>*</sup>Бесплатный аудит:<br>
-							1. Анализ целевой аудитории<br>
-							2. Анализ конкурентов<br>
-							3. Расчет бюджета<br>
-						</div>
+						<?php dynamic_sidebar('text_a'); ?>
+						<?php dynamic_sidebar('text_b'); ?>					
+						<?php dynamic_sidebar('button1'); ?>					
+						<?php dynamic_sidebar('text_c'); ?>										
 					</div>
 				</div>
-			</div>
-			<!--openModal-->
+				</div>	
+				<?php dynamic_sidebar('modal-dialog'); ?>		
 			<div id="openModal" class="modalDialog">		
 				<div>
 					<a href="#close" title="Закрыть" class="close">X</a>
@@ -63,5 +43,5 @@
 							и не будут переданы третьим лицам </p>
 						</form>
 					</div>
-				</div>
+				</div><!--openModal-->
 				<?php get_footer(); ?>
