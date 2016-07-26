@@ -344,9 +344,49 @@ pointer-events: auto;
 
 } 
 @media only screen and (max-width : 480px) {
+	.text_c {
+		margin-bottom: 20px;	
+	}
+
+	html {
+		height: auto;
+	}
+
+	.main {
+		width: 100%;
+		overflow: hidden;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		padding-left: 20px;
+		padding-right: 20px;
+		height: auto;
+	}
+
 	.image.hid_sm {
 		display: none;
 	}
+
+		.logo, .logo_text {
+		width: 100%;
+		float: left;
+		margin-right: 0;
+		border-right: 0;
+		text-align: left;
+		margin-bottom: 10px;
+		font-size: 20px;
+		
+	}
+		.telephone {
+			text-align: left;
+			width: 100%;
+			font-size: 18px;
+		
+		}
+		footer {
+			display: none;
+		}
+
 } 
 @media only screen and (max-width : 400px) {
 
