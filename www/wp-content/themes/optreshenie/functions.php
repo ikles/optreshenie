@@ -64,20 +64,20 @@ register_sidebar(array(
 	));
 
 register_sidebar(array(
-	'name' => 'Всплывающая форма',
-	'id' => 'modal-dialog',
+	'name' => 'Футер',
+	'id' => 'footer',
 	'description' => '',
-	'before_widget' => '<div id="openModal" class="modalDialog">',
+	'before_widget' => '<div class="footer1">',
 	'after_widget' => '</div>',
 	'before_title' => '',
 	'after_title' => ''
 	));
 
 register_sidebar(array(
-	'name' => 'Футер',
-	'id' => 'footer',
+	'name' => 'Всплывающая форма',
+	'id' => 'modal-dialog',
 	'description' => '',
-	'before_widget' => '<div class="footer1">',
+	'before_widget' => '<div id="openModal" class="modalDialog">',
 	'after_widget' => '</div>',
 	'before_title' => '',
 	'after_title' => ''

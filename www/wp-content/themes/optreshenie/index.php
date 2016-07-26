@@ -23,7 +23,7 @@
 				</div>
 				</div>	
 				<?php dynamic_sidebar('modal-dialog'); ?>		
-			<div id="openModal" class="modalDialog">		
+			<!--div id="openModal" class="modalDialog">		
 				<div>
 					<a href="#close" title="Закрыть" class="close">X</a>
 					<h2>Закажите<br>
@@ -43,5 +43,5 @@
 							и не будут переданы третьим лицам </p>
 						</form>
 					</div>
-				</div><!--openModal-->
+				</div--><!--openModal-->
 				<?php get_footer(); ?>

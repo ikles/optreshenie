@@ -152,8 +152,8 @@ footer {
 	-webkit-transition: opacity 400ms ease-in;
 	-moz-transition: opacity 400ms ease-in;
 	transition: opacity 400ms ease-in;
-	display: none;
-	pointer-events: none;
+	display: block;
+	//pointer-events: none;
 }
 /*.modalDialog:target {
 display: block;
@@ -161,7 +161,8 @@ pointer-events: auto;
 }*/
 .modalDialog > div {
 	width: 370px;
-	height: 480px;
+	min-height: 480px;
+	overflow: hidden;
 	position: relative;
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
@@ -189,7 +190,7 @@ pointer-events: auto;
 	margin: 10px;
 	font-size: 17px;
 }
-.button_forma{
+.button_forma, .modalDialog input[type=submit]{
 	width: 280px;
 	height: 45px;	
 	font-size: 20px;
@@ -204,7 +205,7 @@ pointer-events: auto;
 	margin: 20px auto 20px;
 	padding-top: 18px;
 }
-.button_forma:hover{	
+.button_forma:hover, .modalDialog input[type=submit]:hover{	
 	background-color: #bfc42f;	
 	background: -moz-linear-gradient(#bfc42f, #6B6E17);
 	background: -webkit-linear-gradient(#bfc42f, #6B6E17);
@@ -212,6 +213,19 @@ pointer-events: auto;
 	z-index: 9999;
 	cursor: pointer;
 }
+
+div.wpcf7 img.ajax-loader {
+	position: absolute;
+	bottom: 5px;
+	left: 200px;
+}
+
+.modalDialog input[type=submit] {
+	border: none;
+	cursor: pointer;
+	padding-top: 0;
+}
+
 .dan{
 	font-size: 12px;
 }
