@@ -244,72 +244,61 @@ footer {
 	margin-left: -350px;
 }
 
-@media screen and (min-width: 640px){	
-	body{
-		min-width: 775px;
-	}
-	.telephone{
-		float: right;
-		padding-top: 5px;
-	}
-	.phone{
-		font-size: 19px;		
-	}
-	.viber{
-		width: 25px;
-		height: 22px;
-		background-size: 20px;
-	}
-	.watsapp, .tele{
-		width: 22px;
-		height: 22px;
-		background-size: 20px;
-	}
+.telephone{
+	float: right;
+	/*padding-top: 5px;*/
+}
+.phone{
+	font-size: 19px;		
+}
+.viber{
+	width: 25px;
+	height: 22px;
+	background-size: 20px;
+}
+.watsapp, .tele{
+	width: 22px;
+	height: 22px;
+	background-size: 20px;
+}
+
+.hid_lg{display: none}
+.text_a{
+	padding-top: 70px;
+	font-size: 37px;
+}	
+.button{
+	width: 460px;
+}
+
+@media only screen and (max-width : 1200px) {
 	
-	.hid_lg{display: none}
-	.text_a{
-		padding-top: 70px;
-		font-size: 37px;
-	}	
-	.button{
-		width: 460px;
-	}
+} 
+@media only screen and (max-width : 992px) {
+	
+} 
+@media only screen and (max-width : 768px) {
+	
+} 	
+@media only screen and (max-width : 640px) {
+	
+} 		
+@media only screen and (max-width : 570px) {
+	
+} 
+@media only screen and (max-width : 480px) {
+	
+} 
+@media only screen and (max-width : 400px) {
+	
+} 
+@media only screen and (max-width : 360px) {
+	
+} 
+@media only screen and (max-width : 320px) {
+	
 }
-@media screen and (max-width: 640px){
-	.logo_text{
-		font-weight: 500;
-	}
-	.telephone{
-		float: left;
-		padding-top: 40px;
-	}
-	.phone{
-		font-size: 35px;
-	}
-	.viber, .watsapp, .tele {
-		width: 45px;
-		height: 44px;
-		background-size: 40px;
-		float: left;
-		margin-right: 10px;
-		margin-top: 10px;
-	}	
-	.hid_sm{
-		display: none;
-	}	
-	.text_a{
-		font-size: 42px;
-		color:#d6df31;
-		font-weight: 400;
-		padding-top: 40px; 
-	}
-	footer{
-		display: none;
-	}
-	.button{
-		width: 370px;
-	}
-}
+/*@media only screen and (min-width : 1200px)*/
 
 
 
