@@ -23,25 +23,4 @@
 				</div>
 				</div>	
 				<?php dynamic_sidebar('modal-dialog'); ?>		
-			<!--div id="openModal" class="modalDialog">		
-				<div>
-					<a href="#close" title="Закрыть" class="close">X</a>
-					<h2>Закажите<br>
-						бесплатный аудит
-					</h2>
-					<div class="hr">
-					</div>
-					<p>Узнайте какие источники рекламы<br>
-						действительно приносят Вам прибыль 
-					</p>
-					<form>				
-						<input class="form_i" type="text" name="email" value=""  placeholder="Введите ваш e-mail:" />				
-						<input class="form_i" type="text" name="phone" value=""  placeholder="Введите номер телефона:" />												
-						<div class="button_forma">Заказать аудит
-						</div>				
-						<p class="dan">Ваши данные находятся в безопасности<br>
-							и не будут переданы третьим лицам </p>
-						</form>
-					</div>
-				</div--><!--openModal-->
 				<?php get_footer(); ?>

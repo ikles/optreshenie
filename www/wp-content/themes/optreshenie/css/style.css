@@ -140,7 +140,7 @@ footer {
 
 /**openModal**/
 .modalDialog {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -152,7 +152,9 @@ footer {
 	-webkit-transition: opacity 400ms ease-in;
 	-moz-transition: opacity 400ms ease-in;
 	transition: opacity 400ms ease-in;
-	display: block;
+	display: none;
+	height: 100%;
+	padding-bottom: 14px;
 	//pointer-events: none;
 }
 /*.modalDialog:target {
@@ -162,7 +164,7 @@ pointer-events: auto;
 .modalDialog > div {
 	width: 370px;
 	min-height: 480px;
-	overflow: hidden;
+	//overflow: hidden;
 	position: relative;
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
@@ -358,6 +360,31 @@ div.wpcf7 img.ajax-loader {
 
 } 
 @media only screen and (max-width : 480px) {
+	.modalDialog > div {
+		width: 310px;	
+		-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+			        box-sizing: border-box;	
+	}
+
+	
+	.modalDialog .form_i {
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		    margin-right: 0;
+		    margin-left: 0;
+	}
+
+	.modalDialog input[type="submit"] {
+		width: 100%;
+	}
+
+	div.wpcf7 img.ajax-loader {
+		left: 146px;
+	}
+
 	.text_c {
 		margin-bottom: 20px;	
 	}
