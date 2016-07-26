@@ -155,10 +155,10 @@ footer {
 	display: none;
 	pointer-events: none;
 }
-.modalDialog:target {
-	display: block;
-	pointer-events: auto;
-}
+/*.modalDialog:target {
+display: block;
+pointer-events: auto;
+}*/
 .modalDialog > div {
 	width: 370px;
 	height: 480px;
@@ -272,31 +272,90 @@ footer {
 }
 
 @media only screen and (max-width : 1200px) {
-	
+
 } 
 @media only screen and (max-width : 992px) {
-	
+
 } 
 @media only screen and (max-width : 768px) {
-	
+	.button.hid_sm {
+		display: none;
+	}
+
+	.button.hid_lg {
+		display: block;
+		width: 365px;	
+	}
+
+	.telephone a:not(.phone) {
+		display: none;
+	}
+
+	.logo, .logo_text {
+		width: 50%;
+		margin-right: 0;
+		border-right: 0;
+	}
+	.logo_text {
+		text-align: right;
+		margin-top: 10px;
+	}
+
+	.telephone {
+		float: left;
+		margin-top: 10px;
+	}
+
+	.header {
+		padding-top: 20px;
+	}
+
 } 	
 @media only screen and (max-width : 640px) {
-	
+	.button.hid_lg {
+		width: 255px;	
+		font-size: 14px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding-top: 17px;
+	}
+
+	.text_a {
+		font-size: 28px;
+		padding-top: 33px;
+	}
+
+	.text_b {
+		padding-bottom: 25px;
+	}
 } 		
 @media only screen and (max-width : 570px) {
-	
+	.text_b {
+		line-height: 1.4;
+		//font-size: 14px;
+	}
+
+	.text_a {
+		padding-top: 25px;
+		padding-bottom: 25px;
+		//font-size: 25px;
+	}
+
 } 
 @media only screen and (max-width : 480px) {
-	
+	.image.hid_sm {
+		display: none;
+	}
 } 
 @media only screen and (max-width : 400px) {
-	
+
 } 
 @media only screen and (max-width : 360px) {
-	
+
 } 
 @media only screen and (max-width : 320px) {
-	
+
 }
 /*@media only screen and (min-width : 1200px)*/
 
